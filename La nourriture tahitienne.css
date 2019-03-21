@@ -1,0 +1,58 @@
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-image: url("src/img/Background2.jpg");
+}
+
+button{
+    width: 100%;
+    height: 5vh;
+    background-color: gray;
+    border-style: double;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+}
+
+a{
+    text-align: center;
+
+}
+
+.retour:hover{
+    background: grey;
+    color: white;
+}
+
+h2, h3, h4{
+    text-align: center;
+}
+
+.poisson_cru{
+    text-align: center;
+    border-radius: 3%;
+}
+.recette{
+    text-align: center;
+}
+.ingredients{
+text-align: center;
+}
+footer {
+    text-align: center;
+}
+
+.poulet{
+    text-align: center;
+    border-radius: 10%;
+}
+.poe{
+    text-align: center;
+    border-radius: 3%;
+}
+
+article{
+    text-align: center;
+   
+}

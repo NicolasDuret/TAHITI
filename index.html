@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link href="css.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+        <link href="DiaporamaIndex.css" rel="stylesheet" type="text/css"/>
+        <title>TAHITI</title>
+    </head>
+
+    <body>
+
+        <h1>TAHITI</h1>
+        <header>
+            <div>
+                <img src="drapeau.png" alt="" class="drapeau" />
+                
+
+            </div>
+        </header>
+
+        <div class="container">
+            <div class='info'>
+            <h4>Ceci est une carte interactive, passez votre souris sur les flèches</h4>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <img src="carte_tahiti.png" alt="" class="carte_tahiti" >
+                    </td>
+                </tr>
+
+            </table>
+
+
+            <div class="all">
+
+                <img src="arrow.png" alt="" class="fleche"/>
+                <a href="teahupoo.html" class="fleche"></a>
+                <img src="teahupoo.jpg" alt="" class="teahupoo">
+                <h2>TEAHUPOO</h2>
+            </div>
+
+            <div class="all2">
+                <img src="arrow.png" alt="" class="fleche2"/>
+                <a href="papeete.html" class="fleche2"></a>
+                <img src="papeete.jpg" alt="" class="papeete">
+                <h2>LA CAPITALE</h2>
+
+            </div>
+            
+            <div class="all3">
+                <img src="arrow.png" alt="" class="fleche3"/>
+                <a href="tradition.html" class="fleche3"></a>
+                <img src="tradition.jpg" alt="" class="tradition">
+                <h2>LES TRADITIONS</h2>
+
+            </div>
+
+
+            <div class="all4">
+            <img src="arrow.png" alt="" class="fleche4"/>
+            <a href="Nourriture tahitienne.html" class="fleche4"></a>
+            <img src="nourriture.jpg" alt="" class="nourriture">
+            <h2>LA NOURRITURE</h2>
+
+            </div>
+            </div>
+
+
+
+        <div class="container_2">
+<!--            <img src="carte_tahiti.png" alt="" class="tahiti_petit" >-->
+
+
+            <p>
+                Partez à la découverte de Tahiti !
+                <br>
+                Voyagez et decouvrez sa capital, ses traditions, sa culture ainsi que ces loisirs !
+            </p>
+            <center><div class="baleines"></div>
+                <br>
+            <button><input class="bouton" type="button" value="VOYAGEZ"></button></center>
+            
+            <nav>
+                <table>
+                    <tr>
+                        <td>PAPEETE</td>
+                        <td>TEAHUPOO</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="papeete.html" class="papeete_petit">
+                                <img src="papeete.jpg" alt="" class="papeete_petit">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="teahupoo.html" class="teahupoo_petit">
+                                <img src="teahupoo.jpg" alt="" class="teahupoo_petit">
+                            </a>
+                        </td>
+
+                    </tr>    
+
+                    <tr>
+                        <td>LES TRADITIONS</td>
+                        <td>LA NOURRITURE</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="tradition.html" class="tradition_petit">
+                                <img src="tradition.jpg" alt="" class="tradition_petit">
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="Nourriture tahitienne.html" class="nourriture_petit">
+                                <img src="nourriture.jpg" alt="" class="nourriture_petit">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </nav>
+         
+        
+        <script>
+            var BaliseDeNavigation = document.querySelector("nav");
+            var bouton = document.querySelector("button");
+            
+            bouton.addEventListener("click",()=>{
+                BaliseDeNavigation.classList.toggle("actif");
+            });
+        </script>
+
+        </div>    
+    </body>
+</html>
+

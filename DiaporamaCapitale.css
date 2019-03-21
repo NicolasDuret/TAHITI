@@ -1,0 +1,43 @@
+div.capitale {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 3%;
+    background-image: url("économique.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    -webkit-animation-name: diapo6;
+    -webkit-animation-duration: 17s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@-webkit-keyframes diapo6 {
+    25%{background-image: url("assemble.JPG");}
+    50%{background-image: url("commissariat.JPG");}
+    75%{background-image: url("mer.JPG");}
+}
+
+
+@media screen and (min-width:1000px){
+     div.capitale{
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 3%;
+    background-image: url("économique.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    -webkit-animation-name: diapo6;
+    -webkit-animation-duration: 17s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+}

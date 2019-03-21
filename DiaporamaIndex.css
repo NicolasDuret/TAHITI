@@ -1,0 +1,50 @@
+div.baleines {
+    
+    width: 75%;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: url("src/img/baleines1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    -webkit-animation-name: diapo3;
+    -webkit-animation-duration: 17s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@-webkit-keyframes diapo3 {
+    25%{background-image: url("tahiti_1.JPG");}
+    50%{background-image: url("tahiti_2.JPG");}
+    75%{background-image: url("tahiti_4.JPG");}
+    100%{background-image: url("tahiti_3.JPG");}
+}
+
+@media screen and (min-width:768px){
+    
+    
+    div.baleines {
+    width: 75%;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: url("src/img/baleines1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    -webkit-animation-name: diapo3;
+    -webkit-animation-duration: 17s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@-webkit-keyframes diapo3 {
+    25%{background-image: url("tahiti_1.JPG");}
+    50%{background-image: url("tahiti_2.JPG");}
+    75%{background-image: url("tahiti_4.JPG");}
+    100%{background-image: url("tahiti_3.JPG");}
+}
+}

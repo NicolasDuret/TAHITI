@@ -1,0 +1,306 @@
+body{
+    background-color: #04264F;
+    height: 100%;
+    width : 100%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:white;
+    text-align: center;
+    align-items: center;
+}
+
+
+h1{
+    text-decoration: underline;
+}
+
+img.drapeau{
+    visibility: visible;
+    height: 100px;
+    max-height: 100px;
+    margin-left: 25px;
+    border-radius: 3px;
+}
+
+.container{
+    display: none
+}
+
+
+.tahiti_petit{
+    align-items: center;
+    width: 75%;
+    max-width: 1000px;
+}
+
+p{
+    text-align: center;
+    
+}
+
+.top{
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: none;
+    flex-direction: column;
+}
+
+nav.actif{
+    display: flex;
+}
+
+nav table{
+    padding: 5px 0;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 7px;
+    transition: all ease .3s;
+
+}
+
+
+
+
+/*button{
+
+    height: 5px;
+    width: 5px;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 8%;
+}*/
+
+.top button:hover{
+
+}
+
+td, th {
+width: 100px;
+text-align: center;
+}
+
+.papeete_petit{
+    width:300px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.teahupoo_petit{
+    width:300px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.tradition_petit{
+    width:300px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.nourriture_petit{
+    width:300px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+
+@media screen and (min-width:1500px){
+    .container{
+        display: flex;
+    }
+    
+    
+    .info h4{
+        position: fixed;
+        left: 710px;
+        top: 810px;
+    }
+    
+    
+    
+    body{
+        overflow: hidden;
+    }
+    
+table{
+    position: absolute;
+    left: 220px;
+}
+
+carte_tahiti{
+    align-items: center;
+}
+
+.fleche{
+    position: fixed;
+    top: 650px;
+    left: 1110px;
+    width: 40px;
+    height: 40px;
+}
+
+.all h2{
+    visibility: hidden;
+}
+
+.all:hover h2{
+    visibility: visible;
+    position: fixed;
+    top: 575px;
+    left: 720px;
+}
+
+
+.all:hover .fleche{
+    transform: scale(1.2);
+    transition: all ease .5s;
+}
+
+.teahupoo{
+    position: fixed;
+    top: 635px;
+    left: 630px;
+    width: 270px;
+    background-color: green;
+    visibility: hidden;
+    border-radius: 3%; 
+    transition: all ease .3s;
+}
+
+.all:hover .teahupoo{
+    visibility: visible;
+    transform: scale(1.15);
+    transition: all ease .5s;
+}
+
+.fleche2{
+    position: fixed;
+    top: 225px;
+    left: 440px;
+    width: 40px;
+    height: 40px;
+}
+
+.all2 h2{
+    visibility: hidden;
+}
+
+.all2:hover h2{
+    visibility: visible;
+    position: fixed;
+    top: 245px;
+    left: 190px;
+}
+
+.all2:hover .fleche2{
+    transform: scale(1.2);
+    transition: all ease .5s;
+}
+
+.papeete{
+   position: fixed;
+    top: 35px;
+    left: 110px;
+    width: 280px;
+    background-color: green;
+    visibility: hidden;
+    border-radius: 3%; 
+    transition: all ease .3s;
+}
+
+.all2:hover .papeete{
+    visibility: visible;
+    transform: scale(1.15);
+    transition: all ease .5s;
+}
+
+.fleche3{
+    position: fixed;
+    top: 500px;
+    left: 600px;
+    width: 40px;
+    height: 40px;
+}
+
+.all3 h2{
+    visibility: hidden;
+}
+
+.all3:hover h2{
+    visibility: visible;
+    position: fixed;
+    top: 555px;
+    left: 240px;
+}
+
+.all3:hover .fleche3{
+    transform: scale(1.2);
+    transition: all ease .5s;
+}
+
+.tradition{
+    position: fixed;
+    top: 620px;
+    left: 150px;
+    width: 320px;
+    background-color: green;
+    visibility: hidden;
+    border-radius: 3%; 
+    transition: all ease .3s;
+}
+
+.all3:hover .tradition{
+    visibility: visible;
+    transform: scale(1.15);
+    transition: all ease .5s;
+}
+
+.container_2{
+    display: none;
+}
+
+.fleche4{
+    position: fixed;
+    top: 500px;
+    left: 1250px;
+    width: 40px;
+    height: 40px;
+}
+
+.all4:hover .fleche4{
+    transform: scale(1.2);
+    transition: all ease .5s;
+}
+
+.all4 h2{
+    visibility: hidden;
+}
+
+.all4:hover h2{
+    visibility: visible;
+    position: fixed;
+    top: 405px;
+    left: 1180px;
+}
+
+.nourriture{
+    position: fixed;
+    top: 200px;
+    left: 1110px;
+    width: 300px;
+    background-color: green;
+    visibility: hidden;
+    border-radius: 3%; 
+    transition: all ease .3s;
+}
+
+.all4:hover .nourriture{
+    visibility: visible;
+    transform: scale(1.15);
+    transition: all ease .5s;
+}
+}

@@ -1,0 +1,47 @@
+div.vague{
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 3%;
+    background-image: url("src/img/vague1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 17s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes diapo1 {
+    25%{background-image: url("src/img/Vague2.jpg");}
+    50%{background-image: url("src/img/Vague3.jpg");}
+    75%{background-image: url("src/img/Vague4.jpg");}
+}
+
+
+@media screen and (min-width:1000px){
+    div.vague{
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 3%;
+    background-image: url("src/img/vague1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 17s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+
+
+}
